@@ -39,7 +39,7 @@ html ::selection {
 
 body {
   font-family: 'Roboto Mono', monospace;
-  font-size: 15px; /*13px*/
+  font-size: 13px; /*13px*/
   color: lime;
   line-height: 1.125em;
   font-weight: 500;
@@ -147,8 +147,9 @@ button.print-btn {
 }
 
 .btn:hover {
-  background-color: white;
-  color: #000000;
+  opacity: .95;
+  background-color: black;
+  color: lime;
 }
 
 .spacer {
